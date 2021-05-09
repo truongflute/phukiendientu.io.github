@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+*{margin:0;padding:0; 
+    font-family: 'Castoro', serif;
+}
+ 
+body{
+    /* background-color: currentColor; */
+    background-color:#131213 ;
+    /* background-attachment: fixed; */
+}
+/* css menu ngabg */
+.menu .menu1 {
+    color: brown;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    border: solid;
+    border-radius: 50px;
+    border-bottom-width: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.menu .menu2 {
+    color: brown;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    border: solid;
+    border-radius: 50px;
+    border-bottom-width: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.menu .menu3 {
+    color: brown;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    border: solid;
+    border-radius: 50px;
+    border-bottom-width: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.menu .menu4 {
+    color: brown;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    border: solid;
+    border-radius: 50px;
+    border-bottom-width: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.menu .menu5 {
+    color: brown;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    border: solid;
+    border-radius: 50px;
+    border-bottom-width: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.menu a{
+    color: white;
+}
+
+.thumbnail img {
+ box-shadow: 2px 2px 7px;
+transform: scale(1);
+transition: all 0.5s;
+
+}
+.thumbnail img:hover {
+    transform: scale(1.1)
+}
+
+/* het css menu ngang */
+
+.btn1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 8px 5px;
+    line-height: 18px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}

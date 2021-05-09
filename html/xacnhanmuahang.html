@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title>Xác Nhận Mua Hàng</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="../vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="../1.js"></script>
+	<link rel="stylesheet" href="../vendor/bootstrap.css">
+ 	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body >
+	  
+	  
+	  <nav class="navbar navbar-default navbar-inverse  navbar-fixed-top" role="navigation">
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  
+		  <div class="container">
+			   <div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="../index.html"><img src="../image/banner/PHỤ KIỆN T&T.png" style="height: 37px;" alt=""></a>
+		  </div>
+	  
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse navbar-ex1-collapse">
+			  <ul class="nav navbar-nav">
+				  <li><a href="../index.html">Trang Chủ</a></li>
+				  <li><a href="../html/gioithieu.html">Giới Thiệu </a></li>
+				  <li><a href="../html/tainghe.html">Sản Phẩm </a></li>
+				  <li><a href="../html/lienhe.html">Liên Hệ</a></li>
+			  </ul>
+			  <form class="navbar-form navbar-left" role="search">
+				  <div class="form-group">
+					  <input type="text" class="form-control" placeholder="Search">
+				  </div>
+				  <button type="submit" class="btn btn-default" onclick="thongBao()">Tìm Kiếm</button>
+			  </form>
+			  <ul class="nav navbar-nav navbar-right">
+				  <li><a href="../html/giohang.html"> 
+				  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+				   </a></li>
+				  <li><a href="../html/dangnhap.html">Đăng Nhập</a></li>
+			  </ul>
+		  </div>
+		  </div>
+		  
+		 <!-- /.navbar-collapse -->
+	  </nav> 	
+     <br>
+     <br>
+    
+	  <!-- het phan menu -->
+	  
+    <div class="container">
+          
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            </div>
+			<div style="color: blanchedalmond;" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<br>
+				<h3>Thông tin người mua hàng</h3>
+				<form action="https://formspree.io/f/mvovwjpj" method="post">
+                    <p>
+                        <label for="Ten">Tên</label>
+                        <br>
+                        <input name="Ten" type="text" style="width: 100%; color: #000;">
+                    </p>
+                    <p>
+                        <label for="Email">Email</label>
+                        <br>
+                        <input name="Mail" type="email" style="width: 100%; color: #000;">
+                    </p>
+                    <p>
+                        <label for="SoDienThoai">Số Điện Thoại</label>
+                        <br>
+                        <input name="SoDienThoai" type="tel" style="width: 100%; color: #000;">
+                    </p>
+                    <p>
+                        <label for="DiaChi">Địa Chỉ</label>
+                        <br>
+                        <input name="DiaChi" type="text" style="width: 100%; color: #000;">
+					</p>
+					<p>
+                        <label for="LoiNhan">Lời Nhắn</label>
+						<br>
+						<textarea name="LoiNhan" style="width: 100%; color: #000;"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit" style="color: rgb(0, 0, 0); width: 100px;"><b>Xác nhận</b></button>
+                    </p>
+                </form>
+        	</div>
+         	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    	 	</div>
+    	</div>
+	</div>
+         <br>
+		<br>
+				<!-- trangcuoi -->
+				<div class="trangcuoi text-center " style="background-color: darkslateblue;" >
+					<div class="row" style="color: aliceblue;padding-top: 20px;">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+							<div class="top1 " style="font-size: 40px;"><i style="color: #000;" class="fa fa-truck" aria-hidden="true"></i></div>
+							<h3>Miễn phí vận chuyển</h3>
+							<p>Giao hàng trong 2h</p>
+							<p>phạm vi 7km</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+							<div class="top1 " style="font-size: 40px; "><i style="color: #000;" class="glyphicon glyphicon-credit-card" aria-hidden="true"></i></div>
+							<h3>Dịch vụ</h3>
+							<p style="color: aliceblue;">Sản phẩm uy tín - chất lượng cao</p>
+							<p style="color: aliceblue;">1 đổi 1 khi sản phẩm bị lỗi</p>
+						</div>
+					</div>
+				</div>
+</body>
+</html>
